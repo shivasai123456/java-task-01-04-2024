@@ -1,0 +1,13 @@
+public class number {
+    public static void main(String[] args) {
+        int[] numbers = {23, 54, 33, 43, 31};
+
+        for (int num : numbers) {
+            int digit1 = num / 10;
+            int digit2 = num % 10;
+            int sum = digit1 + digit2;
+
+            System.out.println("Sum of the digits of " + num + " ==> " + digit1 + " + " + digit2 + " ==> " + sum);
+        }
+    }
+}
