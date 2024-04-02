@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+       
+        float r1 = 2.5f / 2; // r1 will be 1.25
+        System.out.println("Result of 2.5f / 2: " + r1);
+        
+       
+        float r2 = 2.5f % 2; // r2 will be 0.5
+        System.out.println("Result of 2.5f % 2: " + r2);
+    }
+}
+
+Result of 2.5f / 2: 1.25
+Result of 2.5f % 2: 0.5

@@ -1,0 +1,24 @@
+public class number {
+    public static void main(String[] args) {
+        int[] numbers = {23, 54, 33, 19, 55, 65}; // Numbers to process
+        
+        for (int num : numbers) {
+            int sum = 0;
+            while (num > 9) {
+                sum += num % 10;
+                num /= 10;
+            }
+            sum += num; // Add the last digit or the single digit itself
+            if (sum > 9) {
+                num = sum;
+                sum = 0;
+                while (num > 9) {
+                    sum += num % 10;
+                    num /= 10;
+                }
+                sum += num;
+            }
+            System.out.println(sum);
+        }
+    }
+}

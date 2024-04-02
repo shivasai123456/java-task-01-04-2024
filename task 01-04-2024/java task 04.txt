@@ -1,0 +1,9 @@
+public class DecrementOperatorExample {
+    public static void main(String[] args) {
+        int x = 5;
+        
+        System.out.println("Original value of x: " + x);
+        System.out.println("x after post-decrement: " + x--); // x will be decremented after this line is executed
+        System.out.println("Value of x after post-decrement: " + x);
+    }
+  }
